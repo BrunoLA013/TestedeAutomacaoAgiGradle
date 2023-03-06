@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c01c9b5-dcf2-4d41-9294-002d09cd3cab" name="Changes" comment="Alteracoes gradle">
+    <list default="true" id="0c01c9b5-dcf2-4d41-9294-002d09cd3cab" name="Changes" comment="feat: alteracoes em metodos, alteracoes do README">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/blogdoai/base/PaginaPOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/blogdoai/base/PaginaPOO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testNavegaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNavegaca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <recent name="br.com.blogdoai" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.testNavegaca">
+  <component name="RunManager" selected="Gradle.testNavegaca.clicarNaLupaPesquisarVerificaExistenciaDeConteudoAbrePrimeiroDaLista">
     <configuration name="testNavegaca" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -192,9 +192,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.testNavegaca.clicarNaLupaPesquisarVerificaExistenciaDeConteudoAbrePrimeiroDaLista" />
         <item itemvalue="Gradle.testNavegaca" />
         <item itemvalue="Gradle.testNavegaca.clicarNaLupaPesquisarSemArgumentos" />
-        <item itemvalue="Gradle.testNavegaca.clicarNaLupaPesquisarVerificaExistenciaDeConteudoAbrePrimeiroDaLista" />
         <item itemvalue="Gradle.testNavegaca.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao" />
         <item itemvalue="Gradle.testNavegaca.clicarNaLupaPesquisarPorCDB" />
       </list>
@@ -209,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678054912221</updated>
       <workItem from="1678054913411" duration="14354000" />
-      <workItem from="1678121433801" duration="5274000" />
+      <workItem from="1678121433801" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="Frist Commit">
       <created>1678055017287</created>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678101324947</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: alteracoes em metodos, alteracoes do README">
+      <created>1678129137660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678129137660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +265,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Frist Commit" />
     <MESSAGE value="Alteracoes gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteracoes gradle" />
+    <MESSAGE value="feat: alteracoes em metodos, alteracoes do README" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: alteracoes em metodos, alteracoes do README" />
   </component>
 </project>
