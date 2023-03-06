@@ -1,12 +1,19 @@
 # TestedeAutomacaoAgiGradle
-teste utilizando o gradle
 
-Esse código é um exemplo de testes automatizados utilizando a biblioteca JUnit, Selenium WebDriver e o Webdrivermanager. Essa combinação permite criar testes que automatizam a interação do navegador com um website.
+# Teste de Automação AGI Gradle
+Este projeto é um exemplo de testes automatizados utilizando as bibliotecas JUnit, Selenium WebDriver e o Webdrivermanager, e tem como objetivo validar a funcionalidade de busca do website https://blogdoagi.com.br/.
 
-O código contém quatro testes que são executados em sequência. Cada teste utiliza um navegador Chrome para abrir o website "https://blogdoagi.com.br/" e realizar uma ação, como clicar na lupa de pesquisa e buscar por uma palavra-chave específica. Em seguida, o código verifica se a ação foi realizada com sucesso, por exemplo, se a página de resultados foi exibida corretamente.
+# Funcionalidades
+O código contém quatro testes que automatizam a interação do navegador com o website, utilizando um navegador Chrome. Cada teste executa uma ação de busca no website com uma palavra-chave específica e verifica se a página de resultados foi exibida corretamente.
 
-Os testes têm como objetivo validar se a funcionalidade de busca do website está funcionando corretamente. Cada teste verifica um cenário diferente de busca, como buscar por uma palavra-chave que existe ou não existe no site, ou buscar em diferentes tamanhos de tela.
+# Dependências
+As dependências utilizadas no projeto estão definidas no arquivo build.gradle:
 
-Os testes automatizados permitem validar a funcionalidade de um website de forma rápida e repetitiva.
+# Como utilizar
+Para utilizar o projeto, basta clonar o repositório em sua máquina bildar o projeto. Certifique-se de ter o JDK e o Gradle instalados em sua máquina. e executar os testes que estão em "test>java>testNavegacao"
 
+# Ajuda
+Para obter ajuda sobre o projeto, você pode entrar em contato com o autor Bruno Lucas através do GitHub em https://github.com/BrunoLA013.
 
+# Autor
+Este projeto foi desenvolvido por Bruno Lucas (https://github.com/BrunoLA013).
