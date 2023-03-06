@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c01c9b5-dcf2-4d41-9294-002d09cd3cab" name="Changes" comment="Frist Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/blogdoai/base/PaginaPOO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNavegaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blogdoai/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blogdoai/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/navegacaoTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,7 @@
       <recent name="br.com.blogdoai" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.testNavegaca.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao">
+  <component name="RunManager" selected="Gradle.testNavegaca">
     <configuration name="navegacaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -121,6 +115,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="testNavegaca" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testNavegaca&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="testNavegaca.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -146,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.testNavegaca" />
         <item itemvalue="Gradle.testNavegaca.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao" />
         <item itemvalue="Gradle.navegacaoTest.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao" />
         <item itemvalue="Gradle.navegacaoTest" />
@@ -160,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678054912221</updated>
-      <workItem from="1678054913411" duration="10774000" />
+      <workItem from="1678054913411" duration="12344000" />
     </task>
     <task id="LOCAL-00001" summary="Frist Commit">
       <created>1678055017287</created>
@@ -183,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678055149559</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Frist Commit">
+      <created>1678067969619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678067969619</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
