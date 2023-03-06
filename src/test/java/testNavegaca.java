@@ -24,7 +24,7 @@ public class testNavegaca extends PaginaPOO {
     public void clicarNaLupaPesquisarPorCDB() throws IOException {
         maximizaTela();
         preencheComPesquisaValidaResolucaoMaior(palavraChaveSucesso);
-      //  tiraPrintDoResultado();
+        //tiraPrintDoResultado();
         verificaSePalavraComSucessoFoiExibida(palavraChaveSucesso);
         System.out.println("Teste com sucesso");
     }

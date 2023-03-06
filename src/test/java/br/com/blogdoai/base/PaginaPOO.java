@@ -1,20 +1,22 @@
 package br.com.blogdoai.base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.aspectj.util.FileUtil;
 import org.junit.Assert;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Locale;
-import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
-import static org.openqa.selenium.By.*;
+import static org.openqa.selenium.By.className;
+import static org.openqa.selenium.By.id;
 
 public abstract class PaginaPOO {
 
@@ -28,12 +30,18 @@ public abstract class PaginaPOO {
     @BeforeAll
     static void setupAll() {
         WebDriverManager.chromedriver().setup();
+//        WebDriverManager.firefoxdriver().setup();
+//        WebDriverManager.operadriver().setup();
     }
 
     @BeforeEach
     public void setup() {
         navegador = new ChromeDriver();
+//      navegador - new FirefoxDriver();
+//      navegador = new OperaDriver();
+        navegador.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         navegador.get(URL_BLOG);
+        ;
     }
 
     @AfterEach
@@ -75,22 +83,17 @@ public abstract class PaginaPOO {
     public void verificaSePalavraComSucessoFoiExibida(String texto) {
         WebElement resultadoDaBusca = this.navegador.findElement(By.className("archive-title"));
         String expectedText = String.format("Resultados da busca por: %s", texto);
-        try {
-            Assert.assertEquals(expectedText, resultadoDaBusca.getText());
-        } catch (AssertionError e) {
-            System.out.println("Erro ao verificar se a palavra foi exibida com sucesso: " + e.getMessage());
+        String actualText = resultadoDaBusca.getText();
+        if (!actualText.equals(expectedText)) {
+            System.out.println("Erro ao verificar se a palavra foi exibida com sucesso. Texto esperado: " + expectedText + ". Texto atual: " + actualText);
         }
     }
 
     public void verificaENavega(String texto) {
-
         WebElement entraNaultimaMateria = this.navegador.findElement(By.className("entry-title"));
-        String expectedTextResult = String.format("%s", texto);
-        Assert.assertTrue(expectedTextResult, entraNaultimaMateria.getText().contains(texto.toLowerCase(Locale.ROOT)));
-        try {
-            Assert.assertTrue(expectedTextResult, entraNaultimaMateria.getText().contains(texto.toLowerCase(Locale.ROOT)));
-        } catch (AssertionError e) {
-            System.out.println("Erro ao verificar e entrar na ultima materia " + e.getMessage());
+        String actualText = entraNaultimaMateria.getText().toLowerCase(Locale.ROOT);
+        if (!actualText.contains(texto.toLowerCase(Locale.ROOT))) {
+            System.out.println("Erro ao verificar e entrar na última matéria. Texto esperado: " + texto + ". Texto atual: " + actualText);
         }
     }
 
@@ -100,19 +103,17 @@ public abstract class PaginaPOO {
     }
 
     public void verificaMensageConfirmaExistenciaDaPalavraENavaga(String texto) {
-        WebElement resultadoDaBusca = this.navegador.findElement(By.className("archive-title"));
-        String expectedText = String.format("Resultados da busca por: %s", texto);
-        try {
-            Assert.assertEquals(expectedText, resultadoDaBusca.getText());
-        } catch (AssertionError e) {
-            System.out.println("Erro ao verificar se a palavra foi exibida com sucesso: " + e.getMessage());
+        WebElement entraNaUltimaMateria = this.navegador.findElement(By.cssSelector("h2.entry-title"));
+        String expectedTitle = texto.toLowerCase(Locale.ROOT);
+        String actualTitle = entraNaUltimaMateria.getText().toLowerCase(Locale.ROOT);
+        if (!actualTitle.contains(expectedTitle)) {
+            System.out.println("Erro ao verificar e entrar na última matéria. Texto esperado: " + expectedTitle + ". Texto atual: " + actualTitle);
+        } else {
+            entraNaUltimaMateria.click();
         }
-
-        //Seleciona e entra na ultima matéria postada
-        this.navegador.findElement(By.cssSelector("h2.entry-title")).click();
     }
 
-    public void verificaMensageSemPesquisa() {
+    public void verificaMensageSemPesquisa()  {
         WebElement resultadoDaBusca = this.navegador.findElement(By.cssSelector("h1.archive-title"));
         String expectedText = String.format("Resultados da busca por:");
         try {

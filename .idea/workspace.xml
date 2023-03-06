@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c01c9b5-dcf2-4d41-9294-002d09cd3cab" name="Changes" comment="Frist Commit">
+    <list default="true" id="0c01c9b5-dcf2-4d41-9294-002d09cd3cab" name="Changes" comment="Alteracoes gradle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/blogdoai/base/PaginaPOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/blogdoai/base/PaginaPOO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNavegaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNavegaca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,9 @@
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,9 +58,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "f9272098265b7fee475f60f25c747bf1",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,52 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.testNavegaca">
-    <configuration name="navegacaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;navegacaoTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="navegacaoTest.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;navegacaoTest.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="testNavegaca" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,6 +89,75 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;testNavegaca&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="testNavegaca.clicarNaLupaPesquisarPorCDB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testNavegaca.clicarNaLupaPesquisarPorCDB&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="testNavegaca.clicarNaLupaPesquisarSemArgumentos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testNavegaca.clicarNaLupaPesquisarSemArgumentos&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="testNavegaca.clicarNaLupaPesquisarVerificaExistenciaDeConteudoAbrePrimeiroDaLista" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testNavegaca.clicarNaLupaPesquisarVerificaExistenciaDeConteudoAbrePrimeiroDaLista&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,9 +193,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.testNavegaca" />
+        <item itemvalue="Gradle.testNavegaca.clicarNaLupaPesquisarSemArgumentos" />
+        <item itemvalue="Gradle.testNavegaca.clicarNaLupaPesquisarVerificaExistenciaDeConteudoAbrePrimeiroDaLista" />
         <item itemvalue="Gradle.testNavegaca.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao" />
-        <item itemvalue="Gradle.navegacaoTest.clicarNoMenuMobileClicarNaLupaPesquisarPorCDBParaTesteMenorResolucao" />
-        <item itemvalue="Gradle.navegacaoTest" />
+        <item itemvalue="Gradle.testNavegaca.clicarNaLupaPesquisarPorCDB" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +208,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678054912221</updated>
-      <workItem from="1678054913411" duration="12344000" />
+      <workItem from="1678054913411" duration="14354000" />
+      <workItem from="1678121433801" duration="5274000" />
     </task>
     <task id="LOCAL-00001" summary="Frist Commit">
       <created>1678055017287</created>
@@ -208,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678067969619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Alteracoes gradle">
+      <created>1678101324947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678101324947</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +257,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Frist Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frist Commit" />
+    <MESSAGE value="Alteracoes gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteracoes gradle" />
   </component>
 </project>
