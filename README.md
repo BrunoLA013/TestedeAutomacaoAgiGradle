@@ -12,9 +12,9 @@ Para utilizar o projeto, basta clonar o repositório em sua máquina bildar o pr
 
 # Outros navegadores
 Este projeto suporta outros navegadores além do Chrome, como Firefox e Opera. Para utilizar um desses navegadores, siga os seguintes passos:<br>
-1 - No arquivo PaginaPOO.java, descomente a linha 32 e 40 para utilizar o Firefox, ou a linha 33 e 41 para utilizar o Opera.
-2 - Lembrese de comentar a as linhas onde o Chrome é chamado, no caso 32 e 39.
-3 -Execute os testes normalmente.
+1 - No arquivo PaginaPOO.java, descomente a linha 32 e 40 para utilizar o Firefox, ou a linha 33 e 41 para utilizar o Opera.<br>
+2 - Lembrese de comentar a as linhas onde o Chrome é chamado, no caso 32 e 39.<br>
+3 -Execute os testes normalmente.<br>
  
 
 # Ajuda
